@@ -44,7 +44,7 @@ The product architecture also influences the different phases of the pipeline an
 	- Unit tests 
 	- Static code analysis ...
 	
-- CD Subsystem phase:
+- CD Sub-System phase:
 
 *Loosely coupled components make up subsystems - the smallest deployable and runnable units. For example, a server is a subsystem. A microservice running in a container is also an example of a subsystem. 
 
@@ -71,10 +71,10 @@ As opposed to components, subsystems can be stood up and validated against custo
 
 
 
-|**Continuous Integration**| ***Continuous Development***|**Continuous Deployment**
+|**CD Sub-System phase**| **CD System phase**|**CD Production phase**
 | :---: | :---:| :---:|
 | Workflow | Workflow| Workflow| 
-|<img src="images/Small_DataScience_Project.JPG" width="500" height="200" border="10">|<img src="images/mlops1.png" width="500" height="200" border="10">|
+|<img src="assets/CDSubSystemPhas.png" width="400" height="300" border="10">|<img src="assets/CDSSystemPhas.png" width="400" height="300" border="10">| <img src="assets/CDSProductionPhase.png" width="400" height="300" border="10">|
 | Click on above Image | Click on above Image :smiley:| Click on above Image :smiley:| 
 
 # A Fully Automated DevSecOps CI CD Pipeline Overview
