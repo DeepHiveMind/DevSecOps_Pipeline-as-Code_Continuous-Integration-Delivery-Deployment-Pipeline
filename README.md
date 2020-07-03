@@ -7,10 +7,11 @@ This repo details out nunaces of following aspects with relevant codesets:
 - DevOps CD Pipeline for AI/ML hosted at Azure (**DevOps in ML** -MLOPS Continuous Deployment flow **at Azure** based on DOCKER, KUBERNETES, HELM, KUBEFLOW, TESNORFLOW, TF-SERVING  with **codeset**)
 
 
-# A Quick Rundown
+# A Quick Rundown | Agenda
 - [CI Integration vs CD Delivery vs CD Deployment](#CI-Integration-vs-CD-Delivery-vs-CD-Deployment)
 - [A Fully Automated DevSecOps CI CD Pipeline Overeview](#a-fully-automated-devsecops-ci-cd-pipeline-Overview)
 - [Automated DevSecOps CI CD Pipeline hosted at AWS](#automated-devsecops-CI-CD-Pipeline-hosted-at-AWS)
+- [DevOps CD Pipeline for AI ML hosted at Azure](#DevOps-CD-Pipeline-for-AI-ML-hosted-at-Azure)
 
 
 # CI Integration vs CD Delivery vs CD Deployment
