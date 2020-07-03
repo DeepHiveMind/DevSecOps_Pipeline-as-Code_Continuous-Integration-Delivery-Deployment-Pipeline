@@ -175,3 +175,10 @@ Refer to my following other Repo for the deep dive.
 		- [AI Model Serving for prediction/scoring](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/9-serving)
 
 Interested in full view of **Enterprise AI MLOPS**. Refer to my repo dedicated to **[EnterpriseAI_Platform_MLOps](https://github.com/DeepHiveMind/EnterpriseAI_Platform_MLOps)** with great depth insight into MLOPS.
+
+
+# Reference
+* https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment
+* https://www.atlassian.com/continuous-delivery/pipeline
+* https://www.atlassian.com/continuous-delivery/software-testing/code-coverage
+* https://get.cloudbolt.io/blog/bid/309670/IT-Usage-Metering-and-CloudBolt-C2
