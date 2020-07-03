@@ -21,14 +21,13 @@ This repo details out nunaces of following aspects with relevant codesets:
 * CD == either Continuous DELIVERY or Continuous DEPLOYMENT, 
      - while those two practices have a lot in common, they also have a significant difference that can have critical consequences for a business.
      
-* Vantage View of Broader Canvass
+#### Vantage View of Broader Canvass 
+
+Automated & Manual Steps coverage under Continuous Integration, Continuous Development & Continuous Deployment:
+<br>
 <img src="/assets/CICDCD.png" height="400" width="800" />
      
-### CI
-
-### CD Delivery
-
-### CD Deployment
+#### Continuous Integration Vs Continuous Development Vs Continuous Deployment
 
 
 # A Fully Automated DevSecOps CI CD Pipeline Overview
