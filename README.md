@@ -44,33 +44,55 @@ During the discussion with Client's VP-DevOps, requirements are zeroed in for th
 - Implement efficient, continuous, automated and secure development and deployment process
 
 #### SOLUTION
-By using best practices of DevSecOps, an end to end secure continuous integration and continuous deployment pipeline is laid out for our customer.  took the following steps to achieve our goals:
+By using best practices of DevSecOps, an end to end secure continuous integration and continuous deployment pipeline is laid out for our customer.  We took the following **23 steps DevSecOps** to achieve our goals:
 
 1. Implement DevSecOps in Product Development Lifecycle
 2. Implement Continuous Integration and Continuous Deployment (CI/CD) pipeline with Jenkins (CI Engine)
 <br>
-- 3. Integrate Jira (Agile Board) with GitHub (SCM)
-- 4. Integrate Jira with Jenkins (CI Engine - Jenkins as a Code/Pipeline as a Code (JaaC/PaaC))
-- 5. Integrate Jira with Confluence (Wiki)
-- 6. Integrate Jira with Sonarqube (SCAT)
+3. Integrate Jira (Agile Board) with GitHub (SCM)
+4. Integrate Jira with Jenkins (CI Engine - Jenkins as a Code/Pipeline as a Code (JaaC/PaaC))
+5. Integrate Jira with Confluence (Wiki)
+6. Integrate Jira with Sonarqube (SCAT)
 <br>
-- 7. Configure Jenkins for Maven, Wheel & other code build tools (CBT)
-- 8. Integrate Jenkins with Sonarqube (SCAT)
-- 9. Integrate Jenkins with Nexus (Artefact Repository Manager)
-- 10. Integrate Jenkins with Docker (Containers/Virtualization - Docker/RKT)
-- 11. Integrate Jenkins with CLAIR (Container Vulnerability Scanner | Conatiner driven Common Vulnerability Scoring System CVSS)
-- 12. Integrate Jenkins with Azure/ AWS (Cloud Service Provider - CSP)
-- 13. Integrate Jenkins with Terraform/ AWS CloudFormation / AZURE Resource Manager / GCP Deployment Manager (IaC Tools)
+7. Configure Jenkins for Maven, Wheel & other code build tools (CBT)
+8. Integrate Jenkins with Sonarqube (SCAT)
+9. Integrate Jenkins with FORTIFY/CHECKMARX (SAST)
+10. Integrate Jenkins with Nexus (Artefact Repository Manager)
+12. Integrate Jenkins with Docker (Containers/Virtualization - Docker/RKT)
+13. Integrate Jenkins with CLAIR (Container Vulnerability Scanner | Conatiner driven Common Vulnerability Scoring System CVSS)
+14. Integrate Jenkins with Azure/ AWS (Cloud Service Provider - CSP)
+15. Integrate Jenkins with Terraform/ AWS CloudFormation / AZURE Resource Manager / GCP Deployment Manager (IaC Tools)
 <br>
-- 14. Configure Jenkins for Ansible (Configuration Management tool for Multiple Environments)
-- 15. Integrate Jenkins with K8S (openShift K8S/ AWS EKS/ AZURE AKS / GCP GKE/ Rancher)
-- 16. Implement Build notification on emails and slack
+16. Configure Jenkins for Ansible (Configuration Management tool for Multiple Environments)
+17. Integrate Jenkins with K8S (openShift K8S/ AWS EKS/ AZURE AKS / GCP GKE/ Rancher)
+18. Implement Build notification by Integrating Jenkins with emails and slack
+19. Integrate Jenkins with FORTIFY/CHECKMARX (DAST)
 <br>
-- 17. Implement SIEM Monitoring Tool in Prod
-- 18. Implement System Telemetry Tool in Prod
-- 19. Implement Metering Tool in Prod
+20. Implement SIEM Monitoring Tool in Prod
+21. Implement System Telemetry Tool in Prod
+22. Implement Metering, Billing & Chargeback Tool in Prod
+23. Implement ITSM Ticketing system
+
 
 #### TECH STACK IN AZURE
+This solution used following tools, platforms and services:
+
+1. Azure-Public Cloud Platform. Following services are prominently used:
+	- Virtual Machine: for hosting Jenkins, SonarQube and Sonartype Nexus Repository Manager
+	- Azure Kubernetes Service (AKS): for creating Kubernetes cluster
+2. GitHub-for source code management
+3. Maven & Wheel-for building java & Python application
+4. Junit & PyTest-for unit test cases
+5. Jira-for implementing end to end Agile Board & Agile project workflow
+6. Jenkins -as CI Engine
+7. SonarQube-for static code analysis
+9. CheckMarx for SAST & DAST
+9. Sonatype Nexus Repository Manager-for storing docker images
+10. Clair-for vulnerability scanning of docker images
+11. ELK Stack with Prometheus.io + Kubernetes Dashboard for System Telemetry
+12. SolarWinds for SIEM
+13. Custom ITSM tool
+14. Custom Metering, Billing & Chargeback Tool baesed on "API Metering + Custome OSM + Chargeback Software"
 
 
 
