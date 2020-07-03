@@ -46,8 +46,8 @@ During the discussion with Client's VP-DevOps, requirements are zeroed in for th
 #### SOLUTION
 By using best practices of DevSecOps, an end to end secure continuous integration and continuous deployment pipeline is laid out for our customer.  took the following steps to achieve our goals:
 
-- 1. Implement DevSecOps in Product Development Lifecycle
-- 2. Implement Continuous Integration and Continuous Deployment (CI/CD) pipeline with Jenkins (CI Engine)
+1. Implement DevSecOps in Product Development Lifecycle
+2. Implement Continuous Integration and Continuous Deployment (CI/CD) pipeline with Jenkins (CI Engine)
 <br>
 - 3. Integrate Jira (Agile Board) with GitHub (SCM)
 - 4. Integrate Jira with Jenkins (CI Engine - Jenkins as a Code/Pipeline as a Code (JaaC/PaaC))
