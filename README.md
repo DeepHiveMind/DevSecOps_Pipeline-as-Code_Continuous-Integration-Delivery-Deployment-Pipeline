@@ -92,7 +92,7 @@ This solution used following tools, platforms and services:
 11. ELK Stack with Prometheus.io + Kubernetes Dashboard for System Telemetry
 12. SolarWinds for SIEM
 13. Custom ITSM tool
-14. Custom Metering, Billing & Chargeback Tool baesed on "API Metering + Custome OSM + Chargeback Software"
+14. Custom Metering, Billing & Chargeback Tool baesed on "API Metering + Customized OSM + CloudBolt C2 Chargeback Software"
 
 
 
