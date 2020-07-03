@@ -22,7 +22,7 @@ This repo details out nunaces of following aspects with relevant codesets:
      - while those two practices have a lot in common, they also have a significant difference that can have critical consequences for a business.
      
 * Vantage View of Broader Canvass
-
+<img src="/assets/CICDCD.png" height="400" width="800" />
      
 ### CI
 
