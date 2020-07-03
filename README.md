@@ -50,7 +50,6 @@ By using best practices of DevSecOps, an end to end secure continuous integratio
 2. Implement Continuous Integration and Continuous Deployment (CI/CD) pipeline with Jenkins (CI Engine)
 <br>
 3. Integrate Jira (Agile Board) with GitHub (SCM)
-
 4. Integrate Jira with Jenkins (CI Engine - Jenkins as a Code/Pipeline as a Code (JaaC/PaaC))
 5. Integrate Jira with Confluence (Wiki)
 6. Integrate Jira with Sonarqube (SCAT)
@@ -65,11 +64,13 @@ By using best practices of DevSecOps, an end to end secure continuous integratio
 14. Integrate Jenkins with Azure/ AWS (Cloud Service Provider - CSP)
 15. Integrate Jenkins with Terraform/ AWS CloudFormation / AZURE Resource Manager / GCP Deployment Manager (IaC Tools)
 <br>
+
 16. Configure Jenkins for Ansible (Configuration Management tool for Multiple Environments)
 17. Integrate Jenkins with K8S (openShift K8S/ AWS EKS/ AZURE AKS / GCP GKE/ Rancher)
 18. Implement Build notification by Integrating Jenkins with emails and slack
 19. Integrate Jenkins with FORTIFY/CHECKMARX (DAST)
 <br>
+
 20. Implement SIEM Monitoring Tool in Prod
 21. Implement System Telemetry Tool in Prod
 22. Implement Metering, Billing & Chargeback Tool in Prod
