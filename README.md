@@ -32,3 +32,5 @@
 
 
 # Automated DevSecOps CI CD Pipeline hosted at AWS
+
+Refer to my other repo for [Automated DevSecOps CI CD Pipeline hosted at AWS](https://github.com/DeepHiveMind/Automated-DevSecOps-CI-CD-Pipeline-hosted-at-AWS)
