@@ -120,21 +120,24 @@ Please note-
 # DevOps CD Pipeline for AI ML hosted at Azure
 
 Refer to my following other Repo for the deep dive.
-- [DevOps in ML MLOPS Flow based on DOCKER KUBERNETES HELM KUBEFLOW](#MLOPS-Architecture-based-on-KUBEFLOW)
+- [DevOps in ML MLOPS Flow based on DOCKER KUBERNETES HELM KUBEFLOW](https://github.com/DeepHiveMind/EnterpriseAI_Platform_MLOps/blob/master/README.md#mlops-architecture-based-on-kubeflow)
 
-     - [Train and Serve TensorFlow Models at Scale with KUBERNETES and KUBEFLOW](#Train-and-Serve-TensorFlow-Models-at-Scale-with-Kubernetes-and-Kubeflow)
-			
-		- [DOCKER - Containerizatioin of AI Modules](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/1-docker)
-		- [KUBERNETES - K8S for AI](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/2-kubernetes)
-		- [HELM Charts on K8S for AI complex deployment](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/3-helm)
-		- [KUBEFLOW for AI MLOPS](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/4-kubeflow)
-		- [JupyterHub on K8S- AI Build Notebook](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/5-jupyterhub)
-		- [TFJob- K8S custom kind for AI Training on GPU/CPU/TPU](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/6-tfjob) 
-		- [Distributed Tensorflow](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/7-distributed-tensorflow)
-		- [Hyperparameters Sweep with Helm](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/8-hyperparam-sweep)
-		- [AI Model Serving for prediction/scoring](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/9-serving)
+	
+	- [DOCKER - Containerizatioin of AI Modules](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/1-docker)
+	- [KUBERNETES - K8S for AI](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/2-kubernetes)
+	- [HELM Charts on K8S for AI complex deployment](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/3-helm)
+	- [KUBEFLOW for AI MLOPS](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/4-kubeflow)
+	- [JupyterHub on K8S- AI Build Notebook](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/5-jupyterhub)
+	- [TFJob- K8S custom kind for AI Training on GPU/CPU/TPU](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/6-tfjob) 
+	- [Distributed Tensorflow](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/7-distributed-tensorflow)
+	- [Hyperparameters Sweep with Helm](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/8-hyperparam-sweep)
+	- [AI Model Serving for prediction/scoring](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/9-serving)
 
+- [Train and Serve TensorFlow Models at Scale with KUBERNETES and KUBEFLOW](https://github.com/DeepHiveMind/EnterpriseAI_Platform_MLOps/blob/master/README.md#Train-and-Serve-TensorFlow-Models-at-Scale-with-Kubernetes-and-Kubeflow)
+
+***
 Interested in full view of **Enterprise AI MLOPS**. Refer to my repo dedicated to **[EnterpriseAI_Platform_MLOps](https://github.com/DeepHiveMind/EnterpriseAI_Platform_MLOps)** with great depth insight into MLOPS.
+***
 
 # Nunaces of variuos phases of Continuous Delivery Pipeline
 
