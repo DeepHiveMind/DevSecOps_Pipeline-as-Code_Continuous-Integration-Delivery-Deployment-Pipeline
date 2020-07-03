@@ -45,7 +45,7 @@ Please note-
 # DevOps CD Pipeline for AI ML hosted at Azure
 
 Refer to my following other Repo for the deep dive.
-- [MLOPS Flow based on KUBEFLOW](#MLOPS-Architecture-based-on-KUBEFLOW)
+- [DevOps in ML MLOPS Flow based on DOCKER KUBERNETES HELM KUBEFLOW](#MLOPS-Architecture-based-on-KUBEFLOW)
 
      - [Train and Serve TensorFlow Models at Scale with KUBERNETES and KUBEFLOW](#Train-and-Serve-TensorFlow-Models-at-Scale-with-Kubernetes-and-Kubeflow)
 			
