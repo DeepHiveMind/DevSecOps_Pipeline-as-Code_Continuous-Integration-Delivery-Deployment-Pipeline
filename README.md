@@ -33,4 +33,7 @@
 
 # Automated DevSecOps CI CD Pipeline hosted at AWS
 
-Refer to my other repo for [Automated DevSecOps CI CD Pipeline hosted at AWS](https://github.com/DeepHiveMind/Automated-DevSecOps-CI-CD-Pipeline-hosted-at-AWS)
+Refer to my other repo for [Automated DevSecOps CI CD Pipeline hosted at AWS](https://github.com/DeepHiveMind/Automated-DevSecOps-CI-CD-Pipeline-hosted-at-AWS).
+    
+Please note- 
+    - The Above Repo is a private repo. Reach me on my contact details on https://DeepHiveMind.io for to get access for the same.
