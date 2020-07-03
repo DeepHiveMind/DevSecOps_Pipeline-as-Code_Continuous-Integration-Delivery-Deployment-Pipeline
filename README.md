@@ -15,12 +15,15 @@ This repo details out nunaces of following aspects with relevant codesets:
 
 # CI Integration vs CD Delivery vs CD Deployment
 
+***
 * CI == continuous integration, 
     - a practice that focuses on making preparing a release easier. 
     
 * CD == either Continuous DELIVERY or Continuous DEPLOYMENT, 
      - while those two practices have a lot in common, they also have a significant difference that can have critical consequences for a business.
-     
+ ***
+ 
+ 
 #### Vantage View of Broader Canvass 
 
 Automated & Manual Steps coverage under Continuous Integration, Continuous Development & Continuous Deployment:
@@ -29,6 +32,11 @@ Automated & Manual Steps coverage under Continuous Integration, Continuous Devel
      
 #### Continuous Integration Vs Continuous Development Vs Continuous Deployment
 
+|**Continuous Integration**| ***Continuous Development***|**Continuous Deployment**
+| :---: | :---:| :---:|
+| Workflow | Workflow| Workflow| 
+|<img src="images/Small_DataScience_Project.JPG" width="500" height="200" border="10">|<img src="images/mlops1.png" width="500" height="200" border="10">|
+| Click on above Image | Click on above Image :smiley:| Click on above Image :smiley:| 
 
 # A Fully Automated DevSecOps CI CD Pipeline Overview
 
