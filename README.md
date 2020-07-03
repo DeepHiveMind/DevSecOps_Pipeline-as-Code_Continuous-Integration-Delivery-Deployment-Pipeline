@@ -50,10 +50,12 @@ By using best practices of DevSecOps, an end to end secure continuous integratio
 2. Implement Continuous Integration and Continuous Deployment (CI/CD) pipeline with Jenkins (CI Engine)
 <br>
 3. Integrate Jira (Agile Board) with GitHub (SCM)
+
 4. Integrate Jira with Jenkins (CI Engine - Jenkins as a Code/Pipeline as a Code (JaaC/PaaC))
 5. Integrate Jira with Confluence (Wiki)
 6. Integrate Jira with Sonarqube (SCAT)
 <br>
+
 7. Configure Jenkins for Maven, Wheel & other code build tools (CBT)
 8. Integrate Jenkins with Sonarqube (SCAT)
 9. Integrate Jenkins with FORTIFY/CHECKMARX (SAST)
