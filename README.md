@@ -32,6 +32,47 @@ Automated & Manual Steps coverage under Continuous Integration, Continuous Devel
 
 # A Fully Automated DevSecOps CI CD Pipeline Overview
 
+#### Client's Ask 
+Client is one of the largest business conglomerates in, with business verticals including telecom, retail, petrochemicals among others. They are on their digital transformation journey by embracing Cloud Computing, Agile and DevOps. Alongside, they also focused on **“shift left”** policy and **DevSecOps** for integrating security into their processes.
+
+#### Goal
+During the discussion with Client's VP-DevOps, requirements are zeroed in for the following goals:
+
+- Integration of Jira with various Tools used in their entire product development life cycle
+- Remove Manual Build and Deploy Process
+- Embed security into their DevOps pipeline
+- Implement efficient, continuous, automated and secure development and deployment process
+
+#### SOLUTION
+By using best practices of DevSecOps, an end to end secure continuous integration and continuous deployment pipeline is laid out for our customer.  took the following steps to achieve our goals:
+
+- 1. Implement DevSecOps in Product Development Lifecycle
+- 2. Implement Continuous Integration and Continuous Deployment (CI/CD) pipeline with Jenkins (CI Engine)
+<br>
+- 3. Integrate Jira (Agile Board) with GitHub (SCM)
+- 4. Integrate Jira with Jenkins (CI Engine - Jenkins as a Code/Pipeline as a Code (JaaC/PaaC))
+- 5. Integrate Jira with Confluence (Wiki)
+- 6. Integrate Jira with Sonarqube (SCAT)
+<br>
+- 7. Configure Jenkins for Maven, Wheel & other code build tools (CBT)
+- 8. Integrate Jenkins with Sonarqube (SCAT)
+- 9. Integrate Jenkins with Nexus (Artefact Repository Manager)
+- 10. Integrate Jenkins with Docker (Containers/Virtualization - Docker/RKT)
+- 11. Integrate Jenkins with CLAIR (Container Vulnerability Scanner | Conatiner driven Common Vulnerability Scoring System CVSS)
+- 12. Integrate Jenkins with Azure/ AWS (Cloud Service Provider - CSP)
+- 13. Integrate Jenkins with Terraform/ AWS CloudFormation / AZURE Resource Manager / GCP Deployment Manager (IaC Tools)
+<br>
+- 14. Configure Jenkins for Ansible (Configuration Management tool for Multiple Environments)
+- 15. Integrate Jenkins with K8S (openShift K8S/ AWS EKS/ AZURE AKS / GCP GKE/ Rancher)
+- 16. Implement Build notification on emails and slack
+<br>
+- 17. Implement SIEM Monitoring Tool in Prod
+- 18. Implement System Telemetry Tool in Prod
+- 19. Implement Metering Tool in Prod
+
+#### TECH STACK IN AZURE
+
+
 
 # Automated DevSecOps CI CD Pipeline hosted at AWS
 
