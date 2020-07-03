@@ -15,23 +15,99 @@ This repo details out nunaces of following aspects with relevant codesets:
 
 # CI Integration vs CD Delivery vs CD Deployment
 
+***
 * CI == continuous integration, 
     - a practice that focuses on making preparing a release easier. 
     
 * CD == either Continuous DELIVERY or Continuous DEPLOYMENT, 
      - while those two practices have a lot in common, they also have a significant difference that can have critical consequences for a business.
+ ***
+ 
+ 
+#### Vantage View of Broader Canvass 
+
+Automated & Manual Steps coverage under Continuous Integration, Continuous Development & Continuous Deployment:
+<br>
+<img src="/assets/CICDCD.png" height="400" width="800" />
      
-* Vantage View of Broader Canvass
+#### Continuous Integration Vs Continuous Development Vs Continuous Deployment
 
-     
-### CI
-
-### CD Delivery
-
-### CD Deployment
-
+|**Continuous Integration**| ***Continuous Development***|**Continuous Deployment**
+| :---: | :---:| :---:|
+| Workflow | Workflow| Workflow| 
+|<img src="images/Small_DataScience_Project.JPG" width="500" height="200" border="10">|<img src="images/mlops1.png" width="500" height="200" border="10">|
+| Click on above Image | Click on above Image :smiley:| Click on above Image :smiley:| 
 
 # A Fully Automated DevSecOps CI CD Pipeline Overview
+
+#### Client's Ask 
+Client is one of the largest business conglomerates in, with business verticals including telecom, retail, petrochemicals among others. They are on their digital transformation journey by embracing Cloud Computing, Agile and DevOps. Alongside, they also focused on **“shift left”** policy and **DevSecOps** for integrating security into their processes.
+
+#### Goal
+During the discussion with Client's VP-DevOps, requirements are zeroed in for the following goals:
+
+- Integration of Jira with various Tools used in their entire product development life cycle
+- Remove Manual Build and Deploy Process
+- Embed security into their DevOps pipeline
+- Implement efficient, continuous, automated and secure development and deployment process
+
+#### SOLUTION
+By using best practices of DevSecOps, an end to end secure continuous integration and continuous deployment pipeline is laid out for our customer.  We took the following **23 steps DevSecOps** to achieve our goals:
+
+1. Implement DevSecOps in Product Development Lifecycle
+2. Implement Continuous Integration and Continuous Deployment (CI/CD) pipeline with Jenkins (CI Engine)
+<br>
+
+3. Integrate Jira (Agile Board) with GitHub (SCM)
+
+4. Integrate Jira with Jenkins (CI Engine - Jenkins as a Code/Pipeline as a Code (JaaC/PaaC))
+5. Integrate Jira with Confluence (Wiki)
+6. Integrate Jira with Sonarqube (SCAT)
+
+<br>
+
+7. Configure Jenkins for Maven, Wheel & other code build tools (CBT)
+8. Integrate Jenkins with Sonarqube (SCAT)
+9. Integrate Jenkins with FORTIFY/CHECKMARX (SAST)
+10. Integrate Jenkins with Nexus (Artefact Repository Manager)
+12. Integrate Jenkins with Docker (Containers/Virtualization - Docker/RKT)
+13. Integrate Jenkins with CLAIR (Container Vulnerability Scanner | Conatiner driven Common Vulnerability Scoring System CVSS)
+14. Integrate Jenkins with Azure/ AWS (Cloud Service Provider - CSP)
+15. Integrate Jenkins with Terraform/ AWS CloudFormation / AZURE Resource Manager / GCP Deployment Manager (IaC Tools)
+<br>
+
+16. Configure Jenkins for Ansible (Configuration Management tool for Multiple Environments)
+17. Integrate Jenkins with K8S (openShift K8S/ AWS EKS/ AZURE AKS / GCP GKE/ Rancher)
+18. Implement Build notification by Integrating Jenkins with emails and slack
+19. Integrate Jenkins with FORTIFY/CHECKMARX (DAST)
+<br>
+
+20. Implement SIEM Monitoring Tool in Prod
+21. Implement System Telemetry Tool in Prod
+22. Implement Metering, Billing & Chargeback Tool in Prod
+23. Implement ITSM Ticketing system
+
+
+#### TECH STACK IN AZURE
+This solution used following tools, platforms and services:
+
+1. Azure-Public Cloud Platform. Following services are prominently used:
+	- Virtual Machine: for hosting Jenkins, SonarQube and Sonartype Nexus Repository Manager
+	- Azure Kubernetes Service (AKS): for creating Kubernetes cluster
+2. GitHub-for source code management
+3. Maven & Wheel-for building java & Python application
+4. Junit & PyTest-for unit test cases
+5. Jira-for implementing end to end Agile Board & Agile project workflow
+6. Jenkins -as CI Engine
+7. SonarQube-for static code analysis
+9. CheckMarx for SAST & DAST
+9. Sonatype Nexus Repository Manager-for storing docker images
+10. Clair-for vulnerability scanning of docker images
+11. ELK Stack with Prometheus.io + Kubernetes Dashboard for System Telemetry
+12. SolarWinds for SIEM
+13. Custom ITSM tool
+14. Custom Metering, Billing & Chargeback Tool baesed on "API Metering + Customized OSM + CloudBolt C2 Chargeback Software"
+
 
 
 # Automated DevSecOps CI CD Pipeline hosted at AWS
