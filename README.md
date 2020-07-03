@@ -30,7 +30,42 @@ Automated & Manual Steps coverage under Continuous Integration, Continuous Devel
 <br>
 <img src="/assets/CICDCD.png" height="400" width="800" />
      
-#### Continuous Integration Vs Continuous Development Vs Continuous Deployment
+#### Phases in a continuous Delivery pipeline
+
+The architecture of the product that flows through the pipeline is a key factor that determines the anatomy of the continuous delivery pipeline. A highly coupled product architecture generates a complicated graphical pipeline pattern where various pipelines get entangled before eventually making it to production.
+
+The product architecture also influences the different phases of the pipeline and what artifacts are produced in each phase. Let’s discuss the four common phases in continuous delivery:
+
+ - CD Component phase
+*The pipeline first builds components - the smallest distributable and testable units of the product. For example, a library built by the pipeline can be termed a component. A component can be certified, among other things, by code reviews, unit tests, and static code analyzers.*
+ 	
+	- Code reviews
+	- Unit tests 
+	- Static code analysis ...
+	
+- CD Subsystem phase
+*Loosely coupled components make up subsystems - the smallest deployable and runnable units. For example, a server is a subsystem. A microservice running in a container is also an example of a subsystem. 
+
+As opposed to components, subsystems can be stood up and validated against customer use cases.*
+
+  	- Functional tests
+	- performance benchmarks
+	- security vulnerabilities
+
+- CD System phase
+*Once subsystems meet functional, performance, and security expectations, the pipeline could be taught to assemble a system from loosely coupled subsystems in cases where the entire system has to be released as a whole. What that means is that the fastest team can go at the speed of the slowest team. Reminds me of the old saying, “A chain is only as strong as its weakest link”.*
+
+*System can be certified by integration, performance, and security tests. Unlike subsystem phase, do not use mocks or stubs during testing in this phase. Also, focus on testing interfaces and network more than anything else.*
+
+*The pipeline can automatically file change requests (CR) to leave an audit trail. Most organizations use this workflow for standard changes, which means, planned releases.*
+
+
+- CD Production phase
+*Whether subsystems can be independently deployed, or they need to be assembled into a system, those versioned artifacts are deployed to production as part of this final phase.*
+
+*This is bedrock of "Blue-Green Deployment*. *{{ZDD (zero downtime deployment) is a must to prevent downtime for customers, and should be practiced all the way from test to staging to production. Blue-green deployment is a popular ZDD technique where the new bits are deployed to a tiny cross-section of the population (called “green”), while the bulk is blissfully unaware on “blue” which has the old bits. If push comes to shove, revert everyone back to “blue” and very few customers will be affected, if any. If things look good on “green”, dial everyone up slowly from “blue” to “green”}}*
+
+
 
 |**Continuous Integration**| ***Continuous Development***|**Continuous Deployment**
 | :---: | :---:| :---:|
