@@ -191,3 +191,4 @@ As opposed to components, subsystems can be stood up and validated against custo
 * https://www.atlassian.com/continuous-delivery/pipeline
 * https://www.atlassian.com/continuous-delivery/software-testing/code-coverage
 * https://get.cloudbolt.io/blog/bid/309670/IT-Usage-Metering-and-CloudBolt-C2
+* https://github.com/jenkins-x/jenkins-x-platform
